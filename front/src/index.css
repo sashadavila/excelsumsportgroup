@@ -1,0 +1,52 @@
+:root {
+  /* COLORES */
+  --primary: #18293E;
+  --secondary: #4C6A81;
+  --accent: #F3722C;
+
+  --gray: #D9D9D9;
+  --white: #FFFFFF;
+
+  /* TEXTO */
+  --text: #18293E;
+  --text-light: #4C6A81;
+
+  /* TIPOGRAFÍA */
+  --font-title: 'Gilroy', system-ui, sans-serif;
+  --font-body: 'Evolve Sans', system-ui, sans-serif;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: var(--font-body);
+  background: var(--white);
+  color: var(--text);
+}
+
+/* TITULOS */
+h1, h2, h3 {
+  font-family: var(--font-title);
+  font-weight: 700;
+}
+
+/* BOTÓN BASE */
+.btn {
+  background: var(--accent);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.85;
+}
